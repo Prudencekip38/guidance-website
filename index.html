@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+     <div class="nav1">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#form">schedule session</a>
+            <a href="services">services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guidance website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Teleposta guidance and counseling</h1>
+    <p id="paragraph1">Welcome to Teleposta guidance and counseling website.<br>
+        We are glad that you choose us to help you overcome <br>your issues and we assure you that you 
+        will leave here better than you came.
+    </p>
+
+
+    <section id="about">
+        <h2>About Teleposta guidance and counseling</h2>
+        <div class="about-text">
+            <p>Our specialized services are designed to help you and guide you through<br>
+                your journey of life.
+            </p>
+            <p>We believe and know that the services offered by our esteemed<br>
+                doctors and psychologists work.Why do we think highly of ourselves you may ask?<br>
+                This is because we get volunteered feedback from our previous patient.<br>
+                And yes the feedback are both negative and positive and we seriously check and try to correct<br>
+                on the negative feedback so as to improve and excel on the services we offer.Check out on the<br> 
+                services we offer.
+            </p>
+        </div>
+    </section>
+    <form action="submit.php" method="post" autocomplete="off" id="form" > 
+        <fieldset>
+            <legend>personal information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for age="age">Age:</label>
+            <input type="number" id="age" name="age" min="16" max="100" required><br><br>
+
+            <lable for="email">Email:</lable>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telephone">phoneNo:</label>
+            <input type="text" id="telephone" name="telephone" ><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">Male
+            <input type="radio" id="female" name="gender" value="female">Female
+            <input type="radio" id="other" namer="gender" value="other">Other<br><br>
+
+            <label for="county">county</label>
+            <select name="county" id="county">
+                <option value="1">Nairobi</option>
+                <option value="2">Kiambu</option>
+                <option value="3">Kajiado</option>
+                <option value="4">Machakos</option>
+                <option value="5">Mombasa</option>
+                <option value="6">Kisumu</option>
+                <option value="7">Turkana</option>
+                <option value="8">Garissa</option>
+                <option value="9">Nyeri</option>
+                <option value="10">Nakuru</option>    
+            </select><br><br>
+
+            <label for="day">Day:</label>
+            <select name="day" id="day">
+                <option value="1">Monday</option>
+                <option value="2">Tuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>
+            </select><br><br>
+
+            <label for="comments">Send a message:</label>
+            <textarea id="comment" name="comment" rows="5" cols="30" placeholder="write here your issue........"></textarea><br><br>
+
+            <input type="submit" value="submit">
+
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
