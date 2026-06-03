@@ -1,0 +1,36 @@
+#form{
+    background-color: beige;
+    color:black;
+    padding: 0%;
+    margin-left: 50px;
+    margin-right: 100px;
+    position: static;
+}
+h1{
+    color:rgb(204, 240, 151);
+    font-style: italic;
+    margin-left: 100px;
+
+}
+#paragraph1{
+    margin-left: 50px;
+    font-style: old style;
+    font-size: 22px;
+}
+.nav1{
+    margin-left: 200px;
+    font-size: 25px;
+}
+/*section about*/
+#about{
+    h2{
+    margin-left: 100px;
+    font-style: italic;
+    color: rgb(204, 240, 151);
+}
+}
+.about-text{
+    margin-left: 50px;
+    font-style: old style;
+    font-size: 22px;
+}
