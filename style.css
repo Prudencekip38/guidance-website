@@ -1,3 +1,18 @@
+#nav1{
+    background-color: rgb(204, 240, 151);
+    color: black;
+    padding: 3%;
+    margin-left: 50px;
+    margin-right: 0p5x;
+    position: static;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    word-spacing: 40px;
+    font-display: fallback;
+    border: 2px solid black;
+}
+
 #form{
     background-color: beige;
     color:black;
@@ -5,6 +20,7 @@
     margin-left: 50px;
     margin-right: 100px;
     position: static;
+
 }
 h1{
     color:rgb(204, 240, 151);
